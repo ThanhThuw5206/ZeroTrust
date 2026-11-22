@@ -1,0 +1,18 @@
+# OpenZiti lab secrets and runtime state
+.env
+.runtime/
+*.jwt
+*.json.identity
+*.pem
+*.key
+*.p12
+
+# Downloaded/generated lab artifacts
+evidence/raw/
+evidence/**/*.pcap*
+
+# Local tooling
+.tmp/
+.DS_Store
+Thumbs.db
+
